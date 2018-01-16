@@ -14,9 +14,7 @@ Summary: Extension for flake8 which uses pydocstyle to check docstrings
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-docstrings-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-docstrings-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-docstrings-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-docstrings-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-docstrings-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-docstrings-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-docstrings-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-docstrings-feedstock)
 
 Current release info
 ====================
