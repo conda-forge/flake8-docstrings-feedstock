@@ -23,8 +23,7 @@ requirements:
   run:
     - python
     - pydocstyle >=2.1
-    - flake8
-    - flake8-polyfill
+    - flake8 >=3
 
 test:
   commands:
