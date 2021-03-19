@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python =2.7|>=3.5
     - pip
     - setuptools
   run:
-    - python
+    - python =2.7|>=3.5
     - pydocstyle >=2.1
     - flake8 >=3
 
