@@ -1,6 +1,6 @@
 {% set name = "flake8-docstrings" %}
-{% set version = "1.6.0" %}
-{% set sha256 = "9fe7c6a306064af8e62a055c2f61e9eb1da55f84bb39caef2b84ce53708ac34b" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "4c8cc748dc16e6869728699e5d0d685da9a10b0ea718e090b1ba088e67a941af" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python =2.7|>=3.5
+    - python >=3.7
     - pip
     - setuptools
   run:
-    - python =2.7|>=3.5
+    - python >=3.7
     - pydocstyle >=2.1
     - flake8 >=3
 
@@ -31,12 +31,12 @@ test:
     - 'flake8 --version | grep flake8-docstrings:'
 
 about:
-  home: https://gitlab.com/pycqa/flake8-docstrings
+  home: https://github.com/PyCQA/flake8-docstrings
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: Extension for flake8 which uses pydocstyle to check docstrings
-  dev_url: https://gitlab.com/pycqa/flake8-docstrings
+  dev_url: https://github.com/PyCQA/flake8-docstrings
 
 extra:
   recipe-maintainers:
