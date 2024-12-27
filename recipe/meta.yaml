@@ -30,7 +30,7 @@ test:
   requires:
     - python {{ python_min }}
   commands:
-    - 'flake8 --version | grep flake8-docstrings:'
+    - flake8 --version | grep flake8_docstrings
 
 about:
   home: https://github.com/PyCQA/flake8-docstrings
