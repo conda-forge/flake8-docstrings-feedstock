@@ -1,15 +1,15 @@
-About flake8-docstrings
-=======================
-
-Home: https://gitlab.com/pycqa/flake8-docstrings
-
-Package license: MIT
+About flake8-docstrings-feedstock
+=================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-docstrings-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/PyCQA/flake8-docstrings
+
+Package license: MIT
+
 Summary: Extension for flake8 which uses pydocstyle to check docstrings
 
-Development: https://gitlab.com/pycqa/flake8-docstrings
+Development: https://github.com/PyCQA/flake8-docstrings
 
 Current build status
 ====================
@@ -97,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
